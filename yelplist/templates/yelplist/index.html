@@ -1,0 +1,8 @@
+{% extends 'yelplist/base.html' %}
+{% load static %}
+{% block content %}
+    <p>Hello World!</p>
+    <img style="width:200px;" src="{% static 'yelplist/CN_network_diagram.png' %}" alt="computers"/>
+    <p>{{ current_date }}</p>
+    <a href="{% url 'select' %}">Let's start!</a>
+{% endblock %}

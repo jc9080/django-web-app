@@ -1,0 +1,8 @@
+{% extends 'yelplist/base.html' %}
+{% block content %}
+<p>Enter a number: </p>
+<form action="{% url 'result' %}" method="get">
+    <input type="number" name="number"/>
+    <button type="submit">Go to result</button>
+</form>
+{% endblock %}
