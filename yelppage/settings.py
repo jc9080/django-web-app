@@ -123,8 +123,3 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
-
-# Client ID
-# 6wZ69a8haumqd5xRJQM6-A
-# API Key
-# 4iI2XEZzHvBgStXyaWKc2KWq2C2LNL_BoXBX30B0q0_kqhhvDUCPUZjrPqVwKwjWVCLpFvu1D79-qq-dt1RgZDX70I4f4ERRwYvp4FF_4TNj28v-OomnHzhOtBhSXnYx
